@@ -1,5 +1,7 @@
 import ReactTypingEffect from 'react-typing-effect';
 
+import bannerImg from '../../assets/img/banner-img.png'
+
 export default function Banner() {
     return (
         <>
@@ -16,7 +18,7 @@ export default function Banner() {
                         </div>
                         <div className="col-lg-6 pt-4 pt-lg-0">
                             <div className="home-image text-center">
-                                <img className='imagen-baner' src="img/andersin.png" title="Banner" alt="Banner"/>
+                                <img src={bannerImg} alt="bannerImg"/>
                             </div>
                         </div>
                     </div>

@@ -1,3 +1,8 @@
+import project1 from '../../assets/img/project1.png';
+import project2 from '../../assets/img/project2.png';
+// import project3 from '../../assets/img/project3.png';
+import project4 from '../../assets/img/project4.png';
+
 export default function Work() {
     return (
         <>
@@ -12,7 +17,7 @@ export default function Work() {
                         <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
-                                    <img src="img/1.png" title="p1" alt="p1"/>
+                                    <img src={project1} alt="project1" />
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -29,7 +34,7 @@ export default function Work() {
                         <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img project-2">
-                                    <img src="img/todos.jpg" title="p1" alt="p1"/>
+                                    <img src={project2} alt="project2" />
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -47,7 +52,7 @@ export default function Work() {
                         <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img project-3">
-                                    <img src="img/3.png" title="p1" alt="p1"/>
+                                {/* <img src={project3} alt="project3" /> */}
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -64,7 +69,7 @@ export default function Work() {
                         <div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img project-4">
-                                    <img src="img/44.png" title="p1" alt="p1"/>
+                                <img src={project4} alt="project4" />
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">

@@ -1,5 +1,7 @@
 import { Link } from "react-scroll";
 
+import AboutImg from  '../../assets/img/about-img.png';
+
 export default function About() {
     return (
         <>
@@ -7,7 +9,7 @@ export default function About() {
                 <div className="container">
                     <div className="row gy-5 align-items-center">
                         <div className="col-lg-6 text-center">
-                            <img src="img/about-img.png" title="Banner" alt="Banner"/>
+                            <img src={AboutImg} alt="AboutImg"/>
                         </div>
                         <div className="col-lg-6 ps-lg-5">
                             <div className="about-text">

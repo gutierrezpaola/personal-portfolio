@@ -1,10 +1,15 @@
+import skillsImg from  '../../assets/img/skills-img.png';
+import htmlImg from  '../../assets/img/html.png';
+import cssImg from  '../../assets/img/css.png';
+import jsImg from  '../../assets/img/js.png';
+import reactImg from  '../../assets/img/react.png';
+
 function Skill(props) {
     return (
         <>
             <div className="col-6 col-md-4 col-lg-6">
                 <div className={props.id + " feature-box-02 "}>
                     <div className="icon">
-                        {/* <i className={`fab fa-${props.icon}`}></i> */}
                         <img src={props.img} alt="skills-img" />
                     </div>
                     <h6>{props.title}</h6>
@@ -17,10 +22,10 @@ function Skill(props) {
 export default function SkillList() {
 
     const skill_list = [
-        {id:'bg-1', title:'HTML', img: '/img/html.png'},
-        {id:'bg-2', title:'CSS', img: '/img/css.png'},
-        {id:'bg-3', title:'JavaScript', img: 'img/js.png' },
-        {id:'bg-4', title:'React', img: '/img/react.png' },
+        {id:'bg-1', title:'HTML', img: htmlImg },
+        {id:'bg-2', title:'CSS', img: cssImg },
+        {id:'bg-3', title:'JavaScript', img: jsImg },
+        {id:'bg-4', title:'React', img: reactImg },
     ]
 
     return (
@@ -43,7 +48,7 @@ export default function SkillList() {
                             </div>
                         </div>
                         <div className="col-lg-6 text-center">
-                            <img src="/img/skills-img.png" title="" alt=""/>
+                            <img src={skillsImg} alt="skillsImg" />
                         </div>
                     </div>
                 </div>
