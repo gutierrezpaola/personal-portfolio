@@ -1,6 +1,6 @@
 import project1 from '../../assets/img/project1.png';
 import project2 from '../../assets/img/project2.png';
-// import project3 from '../../assets/img/project3.png';
+import project3 from '../../assets/img/project3.png';
 import project4 from '../../assets/img/project4.png';
 
 export default function Work() {
@@ -40,9 +40,8 @@ export default function Work() {
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-text">
                                 <h6><span>Face IO</span></h6>
-
                                     <h4>Facial Recognition</h4>
-                                    <p>........</p>
+                                    <p>Practical tutorial, in this project we use the FaceIO APIs to authenticate a user using facial recognition in a React web application.</p>
                                     <div className="btn-bar">
                                         <a target="_blank" rel="noopener noreferrer" href="./" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
                                     </div>
@@ -52,7 +51,7 @@ export default function Work() {
                         <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img project-3">
-                                {/* <img src={project3} alt="project3" /> */}
+                                <img src={project3} alt="project3" />
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">

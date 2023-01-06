@@ -1,4 +1,3 @@
-
 import { Link } from "react-scroll";
 
 function Menu(props){
@@ -10,7 +9,8 @@ export default function Header() {
         { id:0, name:'Home', scroll_link:'home' },
         { id:2, name:'Skills', scroll_link:'skill' },
         { id:3, name:'Portfolio', scroll_link:'work' },
-        { id:4, name:'Contact', scroll_link:'contactus' }
+        // { id:4, name:'Portfolio', scroll_link:'other-projects' },
+        { id:1, name:'Contact', scroll_link:'contactus' }
     ]
     return (
         <>
@@ -18,8 +18,6 @@ export default function Header() {
                 <nav className="navbar header-nav navbar-expand-lg one-page-nav">
                     <div className="container">
                         <Link className="navbar-brand"  smooth={true} to="home">
-                            {/* <img src="img/logo.svg" title="Logo" alt="Logo"/>
-                            <h6>lOGO</h6> */}
                         </Link>
                         <div className="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
                             <ul className="navbar-nav mx-auto">

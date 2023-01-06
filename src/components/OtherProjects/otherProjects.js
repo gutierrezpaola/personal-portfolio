@@ -1,9 +1,10 @@
+import backgroundImg from '../../assets/img/effect/bg-effect-1.png';
 
 function Service(props) {
     return (
         <>
-            <div className="col-md-6 prueba">
-                <div className={props.id + " feature-box-01"}>
+            <div className="col-md-6">
+                <div className={props.id + " feature-box-01 h-100"}>
                     <div className="icon">
                         <i className={`bi bi-${props.icon}`}></i>
                     </div>
@@ -25,7 +26,6 @@ function Service(props) {
     );
 }
 
-
 export default function ServiceList() {
     const service_list = [
         {id:'bg-1', title:'Lego Store', description:'Create the structure, web design, animations and micro-interactions of a project with CSS Grid. Access the DOM of an application with JavaScript to interact with users.', icon: 'bricks', link: 'https://gutierrezpaola.github.io/lego-heroes-html-css-js/'},
@@ -35,14 +35,14 @@ export default function ServiceList() {
     ]
     return (
         <>
-        <section data-scroll-data="1" id="services" className="section services-section" style={{ "backgroundImage": "url(/img/effect/bg-effect-1.png)", "backgroundRepeat": "no-repeat", "backgroundSize": "cover"}}>
+        <section data-scroll-data="1" id="services" className="section services-section" style={{ "backgroundImage": `url(${backgroundImg})`, "backgroundRepeat": "no-repeat", "backgroundSize": "cover"}}>
                 <div className="container">
                     <div className="row section-heading justify-content-center">
                         <div className="col-lg-6 text-center">
                             <h3><span>Other Projects</span></h3>
                         </div>
                     </div>
-                    <div className="row gy-4" style={{display: "flex"}}>
+                    <div className="row gy-4">
                         {
                             service_list.map((val, i)=>{
                                 return <Service key={i} id={val.id} title={val.title} description={val.description} icon={val.icon} link={val.link} />

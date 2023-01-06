@@ -1,7 +1,9 @@
+import backgroungImgContact from '../../assets/img/effect/bg-effect-3.png'
+
 export default function Contact() {
     return (
         <>
-        <section data-scroll-data="4" id="contactus" className="section contactus-section bg-dark" style={{ "backgroundImage": "url(/img/effect/bg-effect-3.png)", "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "backgroundPosition": "center"}}>
+        <section data-scroll-data="4" id="contactus" className="section contactus-section bg-dark" style={{ "backgroundImage": `url(${backgroungImgContact})`, "backgroundRepeat": "no-repeat", "backgroundSize": "cover", "backgroundPosition": "center"}}>
             <div className="container">
                 <div className="row gy-5">
                     <div className="col-lg-6">
