@@ -792,6 +792,10 @@ main {
   font-size: 14px;
 }
 
+.contact-section {
+  padding-bottom: 164px;
+}
+
 .contact-form {
   border: 2px solid #373737;
   padding: 35px;
@@ -872,6 +876,12 @@ main {
   font-size: 20px;
   color: #fff;
   font-weight: 500;
+}
+
+.alert-success {
+  text-align: center;
+  width: 100%;
+  margin-top: 26px;
 }
 
 @media (max-width: 767px) {

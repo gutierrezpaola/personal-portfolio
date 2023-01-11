@@ -5,7 +5,7 @@ import AboutImg from  '../../assets/img/about-img.png';
 export default function About() {
     return (
         <>
-            <section className="section about-section">
+            <section data-scroll-data="1" id="about" className="section about-section">
                 <div className="container">
                     <div className="row gy-5 align-items-center">
                         <div className="col-lg-6 text-center">
@@ -18,8 +18,8 @@ export default function About() {
                                 I would like to work with new people. New people, new experience.
                                     </p>
                                 <div className="btn-bar pt-4">
-                                    <Link className="px-btn px-btn-theme me-4" to="contactus">Contact Me</Link>
-                                    <Link className="px-btn px-btn-dark" to="work">Portfolio</Link>
+                                    <Link className="px-btn px-btn-theme me-4" to="contact">Contact Me</Link>
+                                    <Link className="px-btn px-btn-dark" to="projects">Portfolio</Link>
                                 </div>
                             </div>
                         </div>

@@ -4,7 +4,6 @@ In the project directory, you can run:
 
 ### `npm i install`
 
-## Start Krinky
 
 In the project directory, you can run:
 

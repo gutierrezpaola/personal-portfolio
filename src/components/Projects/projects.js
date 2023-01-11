@@ -3,10 +3,10 @@ import project2 from '../../assets/img/project2.png';
 import project3 from '../../assets/img/project3.png';
 import project4 from '../../assets/img/project4.png';
 
-export default function Work() {
+export default function Projects() {
     return (
         <>
-            <section data-scroll-data="3" id="work" className="section work-section">
+            <section data-scroll-data="3" id="projects" className="section projects-section">
                 <div className="container">
                     <div className="row section-heading justify-content-center">
                         <div className="col-lg-6 text-center">

@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-const Brand = () => {
+const Particless = () => {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
 
@@ -47,7 +47,7 @@ const Brand = () => {
                 },
                 particles: {
                   color: {
-                    value: "#fff9ec",
+                    value: "#fff",
                   },
                   links: {
                     color: "#tranparent",
@@ -94,7 +94,6 @@ const Brand = () => {
       </div>
     </>
   );
-  // }
 };
 
-export default Brand;
+export default Particless;

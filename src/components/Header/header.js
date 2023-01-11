@@ -7,10 +7,10 @@ function Menu(props){
 export default function Header() {
     const header_menus = [
         { id:0, name:'Home', scroll_link:'home' },
+        { id:1, name:'About', scroll_link:'about' },
         { id:2, name:'Skills', scroll_link:'skill' },
-        { id:3, name:'Portfolio', scroll_link:'work' },
-        // { id:4, name:'Portfolio', scroll_link:'other-projects' },
-        { id:1, name:'Contact', scroll_link:'contactus' }
+        { id:3, name:'Projects', scroll_link:'projects' },
+        { id:4, name:'Contact', scroll_link:'contact' }
     ]
     return (
         <>
@@ -29,7 +29,7 @@ export default function Header() {
                             </ul>
                         </div>
                         <div className="ms-auto d-none d-lg-block">
-                            <Link className="px-btn px-btn-theme" data-scroll-nav="4" smooth={true} to="contactus">Contact Now</Link>
+                            <Link className="px-btn px-btn-theme" data-scroll-nav="4" smooth={true} to="contact">Contact Now</Link>
                         </div>
                     </div>
                 </nav>
