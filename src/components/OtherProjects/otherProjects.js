@@ -28,10 +28,10 @@ function OtherProjects(props) {
 
 export default function ProjectsList() {
     const projects_list = [
-        {id:'bg-1', title:'Lego Store', description:'Create the structure, web design, animations and micro-interactions of a project with CSS Grid. Access the DOM of an application with JavaScript to interact with users.', icon: 'bricks', link: 'https://gutierrezpaola.github.io/lego-heroes-html-css-js/'},
+        {id:'bg-1', title:'To Do List', description:'Work with components, properties, state, and effects. Store information in Local Storage, implement React Context to communicate components.', icon: 'card-checklist', link: 'https://gutierrezpaola.github.io/to-do-list-react/'},
         {id:'bg-2', title:'Calculator', description:'Personal project, first project using JavaScript', icon: 'calculator', link: 'https://gutierrezpaola.github.io/calculator-html-css-js/'},
-        {id:'bg-3', title:'Batatabit', description:'Create and apply styles with CSS that can be reused, apply media queries to adapt device views, analyze the architecture of your project based on a wireframe, carry out an audit with Lighthouse.', icon: 'cash', link: 'https://gutierrezpaola.github.io/batatabit-html-css/'},
-        {id:'bg-4', title:'Google Clone', description:'Create the Header, structure the main content, and build the Footer of a page. Using: positioning, box model, display types, flexbox and CSS Grid.', icon: 'google', link: 'https://gutierrezpaola.github.io/google-clone-html-css/'},
+        {id:'bg-3', title:'Batatabit', description:'Created and applied styles with CSS that can be reused, applied media queries to adapt device views, analyzed the architecture of the project based on a wireframe, carried out an audit with Lighthouse.', icon: 'cash', link: 'https://gutierrezpaola.github.io/batatabit-html-css/'},
+        {id:'bg-4', title:'Google Clone', description:'Created the Header, structure the main content, and build the Footer of a page. Using: positioning, box model, display types, flexbox and CSS Grid.', icon: 'google', link: 'https://gutierrezpaola.github.io/google-clone-html-css/'},
     ]
     return (
         <>
@@ -54,3 +54,4 @@ export default function ProjectsList() {
         </>
     );
 }
+

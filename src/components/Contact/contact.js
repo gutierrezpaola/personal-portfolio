@@ -66,16 +66,6 @@ export default function ContactForm() {
                     <div className="col-lg-5 ms-auto col-xl-4">
                         <ul className="contact-infos">
                             <li>
-                                <div className="icon bg-1">
-                                    
-                                    <i className="fas fa-envelope"></i>
-                                </div>
-                                <div className="col">
-                                    <h5>Mail</h5>
-                                    <p>paolaandreagutierrez4@hotmail.com</p>
-                                </div>
-                            </li>
-                            <li>
                                 <div className="icon bg-2">
                                     <i className="fas fa-envelope"></i> 
                                 </div>

@@ -13,9 +13,8 @@ export default function About() {
                         </div>
                         <div className="col-lg-6 ps-lg-5">
                             <div className="about-text">
-                                <h3 className="h1">I'm a Web Developer 1 year ago</h3>
-                                <p>I'm from Bogotá, Colombia. I've worked with the technologies: HTML, CSS, JavaScript, TypeScript, React, Git and GitHub. I'm passionate about continuous learning in technologies and skills that allow me to improve productivity.
-                                I would like to work with new people. New people, new experience.
+                                <h3 className="h1">I've been a Web Developer for a year</h3>
+                                <p>I'm from Bogotá, Colombia. I've worked with the technologies: HTML, CSS, JavaScript, TypeScript, React, and Git. I'm passionate about continuous learning in technologies and skills that allow me to improve productivity.I would like to work with new people to gain more knowledge and continue to grow in Web Development, software and technology in general.
                                     </p>
                                 <div className="btn-bar pt-4">
                                     <Link className="px-btn px-btn-theme me-4" to="contact">Contact Me</Link>
