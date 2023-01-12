@@ -66,12 +66,39 @@ export default function ContactForm() {
                     <div className="col-lg-5 ms-auto col-xl-4">
                         <ul className="contact-infos">
                             <li>
+                                <div className="icon bg-1">
+                                    <i className="fab fa-linkedin"></i>
+                                </div>
+                                <div className="col">
+                                    <h5>Linkedin</h5>
+                                    <a target="_blank" rel="noopener        noreferrer"
+                                    href="https://www.linkedin.com/in/gutierrezpaolaa/">
+                                        <p>gutierrezpaolaa</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="icon bg-5">
+                                    <i className="fab fa-github"></i> 
+                                </div>
+                                <div className="col">
+                                    <h5>GitHub</h5>
+                                    <a target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/gutierrezpaola">
+                                        <p>gutierrezpaola</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
                                 <div className="icon bg-2">
                                     <i className="fas fa-envelope"></i> 
                                 </div>
                                 <div className="col">
                                     <h5>Mail</h5>
-                                    <p>paolagupe4@gmail.com</p>
+                                    <a target="_blank" rel="noopener noreferrer"
+                                    href="mailto:paolagupe4@gmail.com">
+                                        <p>paolagupe4@gmail.com</p>
+                                    </a> 
                                 </div>
                             </li>
                         </ul>

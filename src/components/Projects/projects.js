@@ -24,7 +24,7 @@ export default function Projects() {
                                 <div className="portfolio-text">
                                 <h6><span>HTML - CSS - JS</span></h6>
                                     <h4>Lego Store</h4>
-                                    <p>Create the structure, web design, animations and micro-interactions of a project with CSS Grid. Access the DOM of an application with JavaScript to interact with users.</p>
+                                    <p>Created the structure, web design, animations and micro-interactions of a project with CSS Grid. Access the DOM of an application with JavaScript to interact with users.</p>
                                     <div className="btn-bar">
                                         <a target="_blank" rel="noopener noreferrer" href="https://gutierrezpaola.github.io/lego-heroes-html-css-js/" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
                                     </div>
