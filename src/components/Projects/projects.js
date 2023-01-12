@@ -58,7 +58,7 @@ export default function Projects() {
                                 <div className="portfolio-text">
                                 <h6><span>Face IO</span></h6>
                                     <h4>Facial Recognition</h4>
-                                    <p>Practical tutorial, in this project we use the FaceIO APIs to authenticate a user using facial recognition in a React web application.</p>
+                                    <p>Demo of a practical integration I had to do in a private project soon to be released, using FaceIO APIs to authenticate users using facial recognition in a react web application.</p>
                                     <div className="btn-bar">
                                         <a target="_blank" rel="noopener noreferrer" href="./" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
                                     </div>
