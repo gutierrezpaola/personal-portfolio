@@ -60,7 +60,7 @@ export default function Projects() {
                                     <h4>Facial Recognition</h4>
                                     <p>Demo of a practical integration I had to do in a private project soon to be released, using FaceIO APIs to authenticate users using facial recognition in a react web application.</p>
                                     <div className="btn-bar">
-                                        <a target="_blank" rel="noopener noreferrer" href="./" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://gutierrezpaola.github.io/facial-recognition-face-io-vite/" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
                                     </div>
                                 </div>
                             </div>
@@ -78,9 +78,9 @@ export default function Projects() {
                                     <p>Personal project to put in practice how to create a nodejs server, configure web sockets server to then communicate with the react frontend.
 
                                     Note: This is work in progress, some features could fail until I release the whole project</p>
-                                    <div className="btn-bar">
+                                    {/* <div className="btn-bar">
                                         <a target="_blank" rel="noopener noreferrer" href="./" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
