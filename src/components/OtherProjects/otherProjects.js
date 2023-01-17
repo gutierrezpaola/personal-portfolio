@@ -29,7 +29,7 @@ function OtherProjects(props) {
 export default function ProjectsList() {
     const projects_list = [
         
-        {id:'bg-1', title:'Batatabit', description:'Created and applied styles with CSS that can be reused, applied media queries to adapt device views, analyzed the architecture of the project based on a wireframe, carried out an audit with Lighthouse.', icon: 'cash', link: 'https://gutierrezpaola.github.io/batatabit-html-css/'},
+        // {id:'bg-1', title:'Batatabit', description:'Created and applied styles with CSS that can be reused, applied media queries to adapt device views, analyzed the architecture of the project based on a wireframe, carried out an audit with Lighthouse.', icon: 'cash', link: 'https://gutierrezpaola.github.io/batatabit-html-css/'},
         {id:'bg-2', title:'Google Clone', description:'Created the Header, structure the main content, and build the Footer of a page. Using: positioning, box model, display types, flexbox and CSS Grid.', icon: 'google', link: 'https://gutierrezpaola.github.io/google-clone-html-css/'},
         {id:'bg-3', title:'To Do List', description:'Work with components, properties, state, and effects. Store information in Local Storage, implement React Context to communicate components.', icon: 'card-checklist', link: 'https://gutierrezpaola.github.io/to-do-list-react/'},
         {id:'bg-4', title:'Calculator', description:'Personal project, first project using JavaScript', icon: 'calculator', link: 'https://gutierrezpaola.github.io/calculator-html-css-js/'},

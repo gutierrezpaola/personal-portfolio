@@ -39,6 +39,23 @@ export default function Projects() {
                             </div>
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-text">
+                                <h6><span>HTML - CSS</span></h6>
+                                    <h4>Batatabit</h4>
+                                    <p>Created and applied styles with CSS that can be reused, applied media queries to adapt device views, analyzed the architecture of the project based on a wireframe, carried out an audit with Lighthouse.</p>
+                                    <div className="btn-bar">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://gutierrezpaola.github.io/batatabit-html-css/" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
+                            <div className="col-md-6 col-lg-5">
+                                <div className="portfolio-img project-3">
+                                <img src={project3} alt="project3" />
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-5">
+                                <div className="portfolio-text">
                                 <h6><span>HTML - CSS - JS</span></h6>
                                     <h4>Youtube Clone</h4>
                                     <p>Personal project, putting into practice what I have learned with HTML, CSS and javaScript.</p>
@@ -48,10 +65,10 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
+                        <div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
                             <div className="col-md-6 col-lg-5">
-                                <div className="portfolio-img project-3">
-                                <img src={project3} alt="project3" />
+                                <div className="portfolio-img project-4">
+                                <img src={project4} alt="project4" />
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -65,7 +82,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
+                        {/* <div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img project-4">
                                 <img src={project4} alt="project4" />
@@ -78,12 +95,12 @@ export default function Projects() {
                                     <p>Personal project to put in practice how to create a nodejs server, configure web sockets server to then communicate with the react frontend.
 
                                     Note: This is work in progress, some features could fail until I release the whole project</p>
-                                    {/* <div className="btn-bar">
+                                    <div className="btn-bar">
                                         <a target="_blank" rel="noopener noreferrer" href="./" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
-                                    </div> */}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
